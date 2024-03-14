@@ -1,0 +1,41 @@
+.checkmail-container {
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 27px 26px 29px;
+}
+
+.checkmail-container div img {
+    margin: 22px 0 20px;
+}
+
+.checkmail-container h3 {
+    color: #4308EB;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 24px;
+}
+
+.checkmail-container p {
+    font-size: 12.5px;
+    line-height: 1.3;
+    font-weight: 400;
+    max-width: 70%;
+    margin:0 auto;
+}
+
+.checkmail-container div p {
+    margin-top: 56px;
+    font-weight: 600;
+}
+
+.checkmail-container div p span {
+    color: #4308EB;
+    cursor: pointer;
+}

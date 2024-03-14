@@ -1,0 +1,70 @@
+.onboarding1-container {
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 30% 50%;
+        grid-template-areas:
+          'sidebar onboading';
+        width: 100%;
+        height: 100vh;
+}
+
+.onboarding-logo {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.onboarding-logo img {
+    width: 60%;
+    text-align: left !important;
+}
+
+.section-left {
+    margin-right: 4rem;
+    background: linear-gradient(to bottom right, #4308EB 40%, #ED00E3 90%);
+}
+
+.section-right {
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-end; */
+}
+
+.onboarding1-container h3 {
+    font-size: 20px;
+}
+
+.onboarding1-container p {
+    font-size: 14px;
+}
+
+.onboarding1-container label {
+    display: block
+}
+
+.onboarding1-container input, .onboarding1-container select {
+    /* max-width: 600px; */
+    width: 100%;
+    padding: 11px;
+    background: 
+    linear-gradient(#ccc 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #9c20aa, #fb3570) border-box;
+    color: #7b7b7b;
+    border: 1px solid transparent;
+    /* display: inline-block; */
+    border-radius: 4px;
+}
+
+.onboarding-button {
+    width:100%;
+    text-align: right;
+}
+
+.onboarding1-container button {
+    font-size: 14px;
+    background-color: #4308EB;
+    color: #fff;
+    max-width: 149px;
+    width: 100%;
+    border-radius: 4px;
+}
