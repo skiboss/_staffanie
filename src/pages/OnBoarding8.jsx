@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../components/Logo';
 import "./onboarding.css"
 
-function OnBoarding6() {
+function OnBoarding8() {
   return (
     <div class="onboarding1-container">
         <div class="section-left"></div>
@@ -11,30 +11,30 @@ function OnBoarding6() {
             <div className='flex flex-column'>
                 <div class="onboarding-logo"><Logo /></div>
                 <h3>
-                    Operational Regions
+                    Operational Branches
                 </h3>
-                <p class="">Further breakdown your business operations into operational regions.</p>
+                <p class="">Add branches to your organization</p>
                 <div className='mb-1'>
-                    <span className='plus-region-btn'>+ New region</span>
+                    <span className='plus-region-btn'>+ New branch</span>
                 </div>
                 <hr className='' />
                 <div>
                     <div className='region-item'>
-                        <p>Sahel and East Africa Conservation Corridor (SEACC)</p>
+                        <p>Dublin European Operations Office</p>
                         <span className='manage-btn'>Manage</span>
                     </div>
                     <div className='region-item'>
-                        <p>Central and Southern Africa Renewable Energy Hub (CSAREH)</p>
+                        <p>Bangalore Software Development Center</p>
                         <span className='manage-btn'>Manage</span>
                     </div>
                     <div className='region-item'>
-                        <p>West and North Africa Climate Adaptation Network (WNACAN)</p>
+                        <p>Nairobi Data Center</p>
                         <span className='manage-btn'>Manage</span>
                     </div>
                 </div>
                 <div class="onboarding1-button mt-5 options-buttons">
-                    <Link to="/onboarding5"><button id='back-button'> Back </button></Link>
-                    <Link to="/onboarding7"><button type="submit">Proceed</button></Link>
+                    <Link to="/onboarding7"><button id='back-button'> Back </button></Link>
+                    <Link to="/onboarding9"><button type="submit">Proceed</button></Link>
                 </div>
             </div>
         </div>
@@ -42,4 +42,4 @@ function OnBoarding6() {
   )
 }
 
-export default OnBoarding6
+export default OnBoarding8

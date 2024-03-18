@@ -4,7 +4,7 @@ import Logo from '../components/Logo';
 import _newregion from '../assets/new-region.png';
 import "./onboarding.css"
 
-function OnBoarding5() {
+function OnBoarding9() {
   return (
     <div class="onboarding1-container">
         <div class="section-left"></div>
@@ -12,19 +12,19 @@ function OnBoarding5() {
             <div className='flex flex-column'>
                 <div class="onboarding-logo"><Logo /></div>
                 <h3>
-                    Countries of Operation
+                    Headquarters
                 </h3>
-                <p class="">What countries are you operational?</p>
+                <p class="">Create your organization's headquarters</p>
                 
                 <div className='add-region-bg'>
                     <img src={_newregion} style={{width: "100%"}} alt="Add a new region background" />
-                    <span className='add-region-btn'>Add a new region</span>
+                    <span className='add-region-btn'>Add headquarters</span>
                 </div>
                 
 
                 <div class="onboarding1-button mt-5 options-buttons">
-                    <Link to="/onboarding4"><button id='back-button'> Back </button></Link>
-                    <Link to="/onboarding6"><button type="submit">Proceed</button></Link>
+                    <Link to="/onboarding8"><button id='back-button'> Back </button></Link>
+                    <Link to="/onboarding10"><button type="submit">Proceed</button></Link>
                 </div>
             </div>
         </div>
@@ -32,4 +32,4 @@ function OnBoarding5() {
   )
 }
 
-export default OnBoarding5
+export default OnBoarding9

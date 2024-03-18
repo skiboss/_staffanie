@@ -134,8 +134,81 @@ div[class="countries-added-heading"] p {
     /* border: 1px solid #000;
     box-shadow: #000000 0px 0px 10px;
     opacity: 0.5; */
+    font-size: 14px;
     position: absolute;
     top: 0;
     left: 0;
     margin: 14px;
+}
+
+.plus-region-btn {
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    /* border: 1px solid #000;
+    box-shadow: #000000 0px 0px 10px;
+    opacity: 0.5; */
+}
+
+.region-item {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    border-left: 6px solid #4308EB;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    /* padding: 18px 26px; */
+}
+
+.region-item p {
+    padding: 18px 26px;
+    width: 80%;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #373737;
+}
+
+.role-item p {
+    padding: 12px 23px;
+    width: 80%;
+    font-size: 13px;
+    font-weight: 600;
+    color: #373737;
+}
+
+.role-item p span {
+    font-size: 9px;
+    font-weight: 400;
+    /* color: linear-gradient(to right, #9c20aa, #fb3570) border-box; */
+}
+
+.manage-btn {
+    position: absolute;
+    top: 22%;
+    right: 5%;
+    color: #7b7b7b;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 5px 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.members-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    width: 60%;
+}
+
+.members-class {
+    font-size: 6px;
+    color: #fff;
+    background-color: #87E0B0;
+    border-radius: 2px;
+    padding: 3px 5px;
+    margin-left: 10px;
 }
