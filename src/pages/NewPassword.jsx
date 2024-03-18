@@ -8,9 +8,9 @@ function NewPassword() {
     const [show2, setShow2] = useState(false)
 
   return (
-    <div>
+    <div className='text-center'>
         <Logo />
-        <div className='newpassword-container'>
+        <div className='newpassword-container text-start'>
             <h2>Password Reset</h2>
             <p>Please enter a matching secure password</p>
             <form className='newpassword-form'>

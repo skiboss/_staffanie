@@ -6,7 +6,7 @@ import "./checkmail.css"
 
 function CheckMail() {
   return (
-    <div>
+    <div className='text-center'>
         <Logo />
         <div className='checkmail-container'>
             <div>

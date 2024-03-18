@@ -4,9 +4,9 @@ import _opportunity from '../assets/opportunity.png';
 
 import "./resetsuccess.css"
 
-function CheckMail() {
+function ResetSuccess() {
   return (
-    <div>
+    <div className='text-center'>
         <Logo />
         <div className='resetsuccess-container'>
             <div>
@@ -24,4 +24,4 @@ function CheckMail() {
   )
 }
 
-export default CheckMail
+export default ResetSuccess

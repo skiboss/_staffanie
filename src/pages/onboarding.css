@@ -24,39 +24,39 @@
 }
 
 .section-right {
+    max-width: 600px;
     width: 100%;
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-end; */
+    padding-bottom: 4rem;
 }
 
 .onboarding1-container h3 {
     font-size: 20px;
+    font-family: lato;
 }
 
 .onboarding1-container p {
     font-size: 14px;
+    color: #101010;
 }
 
 .onboarding1-container label {
-    display: block
+    display: block;
+    color: #000000;
 }
 
-.onboarding1-container input, .onboarding1-container select {
-    /* max-width: 600px; */
+.onboarding1-container input[type="text"], .onboarding1-container select {
     width: 100%;
     padding: 11px;
+    outline: none;
     background: 
-    linear-gradient(#ccc 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(#f5f5f5 0 0) padding-box, /*this is your grey background*/
     linear-gradient(to right, #9c20aa, #fb3570) border-box;
     color: #7b7b7b;
     border: 1px solid transparent;
-    /* display: inline-block; */
     border-radius: 4px;
 }
 
 .onboarding-button {
-    width:100%;
     text-align: right;
 }
 
@@ -64,7 +64,78 @@
     font-size: 14px;
     background-color: #4308EB;
     color: #fff;
-    max-width: 149px;
-    width: 100%;
+    padding: 0.85rem 2.75rem;
     border-radius: 4px;
+}
+
+.use-options {
+    padding: 11px 20px;
+    font-size: 14px;
+}
+
+#back-button {
+    color: #7b7b7b;
+    border: 1px solid #d9d9d9;
+    background-color: #f5f5f5;
+}
+
+.options-buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div[class="countries-added-items"] {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 12px;
+}
+
+div[class="continent-added-items"] {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+div[class="countries-added-items"] span.added-countries {
+    background-color: #d9d9d9;
+    color: #7b7b7b;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: montserrat, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.continent-added-items span.added-continents {
+    background-color: #4308EB;
+    color: white;
+    display: flex;
+    border-radius: 4px;
+    padding: 3px 7px;
+    font-family: montserrat, sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+div[class="countries-added-heading"] p {
+    color: #979797;
+    margin-top: 13px;
+}
+
+.add-region-bg {
+    position: relative;
+}
+
+.add-region-btn {
+    background-color: #fff;
+    padding: 12px 15px;
+    /* border: 1px solid #000;
+    box-shadow: #000000 0px 0px 10px;
+    opacity: 0.5; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 14px;
 }

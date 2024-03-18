@@ -2,6 +2,10 @@
     margin: 24px 0 22px;
 }
 
+.container-fluid {
+    text-align: center;
+}
+
 .signin-container {
     display: flex;
     justify-content: flex-start;
@@ -42,10 +46,11 @@ div.signin-nav p {
     margin: 0 45px 0 41px;
 }
 
-input#name,
-input#company,
-input#email,
-input#password, button {
+.signin-container input#name,
+.signin-container input#company,
+.signin-container input#email,
+.signin-container input#password,
+.signin-container button {
     max-width: 343px;
     width:100%;
     /* height: 43px; */
@@ -53,6 +58,12 @@ input#password, button {
     border-radius: 8px;
     border: none;
     font-size: 14px;
+}
+
+button {
+    border: none;
+    font-size: 14px;
+    font-family: montserrat, sans-serif;
 }
 
 input {
@@ -104,6 +115,7 @@ input {
 
 .checkbox {
     margin-bottom: 22px;
+    text-align: left;
 }
 
 .password {
