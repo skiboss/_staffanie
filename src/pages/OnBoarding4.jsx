@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 
 function OnBoarding4() {
   return (
-    <div class="onboarding1-container">
-        <div class="section-left"></div>
-        <div class="section-right">
+    <div className="onboarding1-container">
+        <div className="section-left"></div>
+        <div className="section-right">
             <div className='flex flex-column'>
-                <div class="onboarding-logo"><Logo /></div>
+                <div className="onboarding-logo"><Logo /></div>
                 <h3>
                     Countries of Operation
                 </h3>
@@ -45,7 +45,7 @@ function OnBoarding4() {
                     </select>
                 </div>
                 <div className='countries-added-heading'>
-                    <p>Countries added</p>
+                    <p>11 Countries added</p>
                 </div>
                 <div className='countries-added-items'>
                     <span className='added-countries'>1. France</span>
@@ -62,7 +62,7 @@ function OnBoarding4() {
                 </div>
                 <div class="onboarding1-button mt-5 pt-5 me-4 options-buttons">
                     <Link to="/onboarding3"><button id='back-button'> Back </button></Link>
-                    <Link to="/onboarding5"><button type="submit">Proceed</button></Link>
+                    <Link to="/onboarding5"><button className='proceed' type="submit">Proceed</button></Link>
                 </div>
             </div>
         </div>
