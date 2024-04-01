@@ -34,11 +34,6 @@ function SignIn() {
                         
                         <label for="policy" className="policy">Agree to terms and conditions</label>
                     </div>}
-                    <div className='checkbox'>
-                        <Input type="checkbox" id="policy" /> 
-                        
-                        <label for="policy" className="policy">Agree to terms and conditions</label>
-                    </div>
                     <button type="submit" className={`btn-signin ${access === "signup" ? "mb-35" : ""}`}>{access === "signin" ? "Sign In" : "Sign Up"}</button>
                     {access === "signin" && <p style={{textAlign: "center"}} className='forgot'><Link style={{textDecoration: "none", color: "#000"}} to="/reset">Forgot your password?</Link></p> }
                 </form>
