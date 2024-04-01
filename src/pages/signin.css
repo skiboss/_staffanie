@@ -97,6 +97,7 @@ input {
     color: #7b7b7b;
     margin-left: 6px;
     font-size: 12;
+    line-height: 2;
 }
 
 .signin-nav p.active a {
@@ -116,6 +117,12 @@ input {
 .checkbox {
     margin-bottom: 22px;
     text-align: left;
+    display: flex;
+}
+
+.checkbox input[type=checkbox] {
+    position: relative;
+    margin: 0;
 }
 
 .password {

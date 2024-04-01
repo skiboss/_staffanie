@@ -19,6 +19,8 @@ import OnBoarding10 from "./pages/OnBoarding10.jsx";
 import OnBoarding11 from "./pages/OnBoarding11.jsx";
 import OnBoarding12 from "./pages/OnBoarding12.jsx";
 import OnBoarding13 from "./pages/OnBoarding13.jsx";
+import UserDashboard from "./pages/UserDashboard.jsx";
+import Dashboard1 from "./pages/Dashboard1.jsx";
 import Error from "./pages/Error.jsx";
 
 import "./App.css";
@@ -48,6 +50,8 @@ function App() {
         <Route path="/onboarding11" element={<OnBoarding11 />} />
         <Route path="/onboarding12" element={<OnBoarding12 />} />
         <Route path="/onboarding13" element={<OnBoarding13 />} />
+        <Route path="/userdash" element={<UserDashboard />} />
+        <Route path="/dashboard" element={<Dashboard1 />} />
         <Route path="*" element={<Error />} />
       </Route>
     </Routes>

@@ -39,7 +39,7 @@ function OnBoarding1() {
                 </div>
                 <div className="onboarding-button mt-5 ">
                     <Link to="/onboarding2">
-                    <button type="submit">Proceed</button>
+                    <button className='proceed' type="submit">Proceed</button>
                     </Link>
                 </div>
             </div>
